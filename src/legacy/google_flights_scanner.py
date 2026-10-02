@@ -5,7 +5,7 @@ from datetime import date, timedelta
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
-ORIGIN = "BSB"
+ORIGIN = "GRU"
 DEST = "YYZ"
 YEAR = 2025
 MONTH = 12

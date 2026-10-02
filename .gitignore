@@ -7,3 +7,6 @@ venv/
 .DS_Store
 *.swp
 
+
+# Scraped price logs
+data/
