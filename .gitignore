@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS/editor cruft
+.DS_Store
+*.swp
+
