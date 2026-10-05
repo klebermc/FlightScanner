@@ -6,6 +6,10 @@ Logs round-trip flight prices from Google Flights into a CSV. It scans every dep
 
 Free: no API key or account needed.
 
+![A short scan of JFK to LHR in the terminal, followed by the first rows of the CSV it wrote](figures/demo_scan.gif)
+
+*Output of a real six-pair scan (JFK→LHR, run on 2026-10-05). The waits between requests are shortened in the GIF.*
+
 ## Structure
 
 ```
@@ -15,6 +19,7 @@ FlightScanner/
 │   └── legacy/
 │       ├── kiwi_scanner.py            # dead: Kiwi's public skypicker API now returns 404
 │       └── google_flights_scanner.py  # dead: hand-rolled POST to Google's internal RPC
+├── figures/                           # demo GIF used in this README
 ├── data/                              # CSV output (gitignored)
 └── requirements.txt
 ```
