@@ -1,6 +1,6 @@
 # FlightScanner
 
-> **Note:** The current scanner (`src/flight_scanner.py`) and the documentation in this repository were written by an AI coding agent (Claude). Kleber Cabral specified the tool and directed the work. The two older scripts in `src/legacy/` are his earlier attempts.
+> **Note:** The code and documentation in this repository were generated with AI: the current scanner (`src/flight_scanner.py`) and the documentation by an AI coding agent (Claude), and the two older scripts in `src/legacy/` with an AI assistant. Kleber Cabral specified the tool and directed the work.
 
 Logs round-trip flight prices from Google Flights into a CSV. It scans every departure date in a window and every trip length in a range, then writes one row per itinerary. It's built to be left running for hours, and it can re-scan on a schedule to build a price history.
 
